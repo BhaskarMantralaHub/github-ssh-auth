@@ -1,4 +1,4 @@
-# Github SSH
+# Github SSH (Secure Shell Protocol)
 
 ## Generating a new SSH key
 On Mac :computer:
