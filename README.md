@@ -87,6 +87,7 @@ Hi Name! You've successfully authenticated, but GitHub does not provide shell ac
 ```sh
 git config --global --unset-all credential.helper
 ```
-
+> This command will remove any globally stored credentials that were previously used for HTTPS authentication with GitHub. 
+> Remember to update any existing Git repositories remote URL from https to ssh using `git remote set-url`
 
 
