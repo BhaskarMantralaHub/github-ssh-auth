@@ -71,3 +71,22 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 * Add key name and paste the public key
 * Save the key
 * Now, start using SSH
+
+## Test SSH authentication
+
+```sh
+ssh -T git@github.com
+```
+
+Response:
+```sh
+Hi Name! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+## Remove the global GitHub credentials
+```sh
+git config --global --unset-all credential.helper
+```
+
+
+
